@@ -13,6 +13,7 @@ public:
     int octal_Decimal(int);
     std::string decimal_Hex(int);
     int hex_Decimal(std::string);
+    void go_Back();
 private:
 
 };

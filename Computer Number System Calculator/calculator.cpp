@@ -11,6 +11,21 @@ void Calculator::init()
     std::cout << std::endl;
 }
 
+void Calculator::go_Back()
+{
+    std::cout << "\n\n" << "To go back press(Y/N)";
+    std::string s;
+    std::cin >> s;
+
+    if (s == "y" || "Y")
+    {
+        Calculator calc;
+        std::cout.flush();
+        system("clear");
+        calc.menu_userInput();
+    }
+}
+
 // Main menu for the calculator
 
 void Calculator::menu_userInput()
