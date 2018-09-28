@@ -10,7 +10,7 @@ int main()
     for (auto& c : a) std::cout << "\t" << c << " " ;
     std::cout << std::endl;
 
-    for (int j = 1; j != 4; ++j)
+    for (int j = 2; j != 4; ++j)
     {
         key = a[j];
         i = j - 1;
