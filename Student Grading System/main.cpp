@@ -3,7 +3,5 @@
 
 int main()
 {
-    Module add;
 
-    add.getMark();
 }
